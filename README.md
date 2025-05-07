@@ -13,7 +13,7 @@ Ambos modelos respetan restricciones como el número mínimo y máximo de turnos
 El proyecto se compone de tres partes principales:
 
 ### 1. Archivos de Entrada
-- **turnos_extended.dzn:** Contiene los datos del problema, incluyendo:
+- **datos.dzn:** Contiene los datos del problema, incluyendo:
     - Número de empleados y turnos.
     - Matriz de preferencias.
     - Penalizaciones y restricciones de cobertura.
@@ -92,7 +92,7 @@ El proyecto tiene aplicaciones en:
 - **Eficiencia:** Solucionadores avanzados optimizan el problema eficazmente.
 
 ## Cómo Ejecutar el Proyecto
-1. Preparar y editar "turnos_extended.dzn" con los datos del problema.
+1. Preparar y editar "datos.dzn" con los datos del problema.
 2. Ejecutar el script Python:
      ```
      python script.py
