@@ -1,0 +1,38 @@
+% Número de empleados y turnos
+numEmpleados = 10;
+numTurnos    = 14;  % 2 turnos por día × 7 días
+
+% Preferencias de cada empleado por cada turno (0 = nada, 5 = mucho)
+prefer = array2d(1..numEmpleados, 1..numTurnos, [
+  % Turnos 1–14 para empleado 1
+   3,1,4,0,2,5,1,3,2,4,0,1,2,3,
+  % Empleado 2
+   2,4,1,3,0,2,5,1,3,0,4,2,1,4,
+  % Empleado 3
+   5,0,2,1,4,3,2,5,1,0,3,2,4,1,
+  % Empleado 4
+   1,2,3,4,5,1,0,2,3,4,1,5,0,2,
+  % Empleado 5
+   0,3,1,2,4,0,5,3,1,2,4,0,3,1,
+  % Empleado 6
+   4,1,5,2,3,4,1,0,2,5,1,3,2,4,
+  % Empleado 7
+   2,5,0,3,1,2,4,1,5,0,3,1,4,2,
+  % Empleado 8
+   3,2,4,1,0,3,2,5,1,4,0,2,3,1,
+  % Empleado 9
+   1,0,3,2,5,1,4,2,0,3,2,5,1,0,
+  % Empleado 10
+   5,3,2,4,1,0,3,2,4,1,0,5,2,3
+]);
+
+% Requerimientos mínimos y máximos por turno
+minReq = [1,1,1,1,1,1,1,1,1,1,1,1,1,1];
+maxReq = [3,3,3,3,3,3,3,3,3,3,3,3,3,3];
+
+% Carga máxima de turnos por empleado
+maxTurnosEmp = 8;
+minTurnosEmp = 1;  % Número mínimo de turnos por empleado
+
+% Penalizaciones (solo se usa en min.mzn; igualamos a la preferencia como ejemplo)
+penExtra = prefer;

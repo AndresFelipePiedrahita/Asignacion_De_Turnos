@@ -1,0 +1,40 @@
+Asignación x[e,t]:
+[| 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+ | 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0
+ | 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0
+ | 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0
+ | 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0
+ | 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0
+ | 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+ | 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0
+ | 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1
+ | 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0
+ |]
+Penalización total = 0
+Turnos asignados por empleado:
+Empleado 1:
+  Martes, Turno Nocturno
+Empleado 2:
+  Miércoles, Turno Diurno
+Empleado 3:
+  Viernes, Turno Nocturno
+Empleado 4:
+  Jueves, Turno Diurno
+  Domingo, Turno Diurno
+Empleado 5:
+  Lunes, Turno Diurno
+  Sábado, Turno Nocturno
+Empleado 6:
+  Jueves, Turno Nocturno
+Empleado 7:
+  Martes, Turno Diurno
+Empleado 8:
+  Sábado, Turno Diurno
+Empleado 9:
+  Lunes, Turno Nocturno
+  Viernes, Turno Diurno
+  Domingo, Turno Nocturno
+Empleado 10:
+  Miércoles, Turno Nocturno
+----------
+==========

@@ -1,0 +1,89 @@
+📊 INFORME DE RESULTADOS DEL PROYECTO DE ASIGNACIÓN DE TURNOS (RRHH)
+============================================================
+
+MODELO DE MAXIMIZACIÓN:
+📄 Resultados de resultados\resultado_max.txt:
+🔢 Valor total de preferencia: 175
+👥 Turnos asignados por empleado:
+  - Empleado 1:
+    Martes, Turno Diurno
+    Miércoles, Turno Nocturno
+    Jueves, Turno Nocturno
+    Domingo, Turno Nocturno
+  - Empleado 2:
+    Lunes, Turno Nocturno
+    Martes, Turno Nocturno
+    Jueves, Turno Diurno
+    Viernes, Turno Diurno
+    Sábado, Turno Diurno
+    Domingo, Turno Nocturno
+  - Empleado 3:
+    Lunes, Turno Diurno
+    Jueves, Turno Nocturno
+    Domingo, Turno Diurno
+  - Empleado 4:
+    Miércoles, Turno Diurno
+    Viernes, Turno Nocturno
+    Sábado, Turno Nocturno
+  - Empleado 5:
+    Lunes, Turno Nocturno
+    Miércoles, Turno Diurno
+    Jueves, Turno Diurno
+    Sábado, Turno Diurno
+  - Empleado 6:
+    Lunes, Turno Diurno
+    Martes, Turno Diurno
+    Miércoles, Turno Nocturno
+    Viernes, Turno Nocturno
+    Domingo, Turno Nocturno
+  - Empleado 7:
+    Lunes, Turno Nocturno
+    Martes, Turno Nocturno
+    Viernes, Turno Diurno
+    Sábado, Turno Diurno
+    Domingo, Turno Diurno
+  - Empleado 8:
+    Martes, Turno Diurno
+    Miércoles, Turno Nocturno
+    Jueves, Turno Nocturno
+    Viernes, Turno Nocturno
+    Domingo, Turno Diurno
+  - Empleado 9:
+    Miércoles, Turno Diurno
+    Jueves, Turno Diurno
+    Sábado, Turno Nocturno
+  - Empleado 10:
+    Lunes, Turno Diurno
+    Martes, Turno Nocturno
+    Viernes, Turno Diurno
+    Sábado, Turno Nocturno
+
+MODELO DE MINIMIZACIÓN:
+📄 Resultados de resultados\resultado_min.txt:
+🔢 Valor total de penalización: 0
+👥 Turnos asignados por empleado:
+  - Empleado 1:
+    Martes, Turno Nocturno
+  - Empleado 2:
+    Miércoles, Turno Diurno
+  - Empleado 3:
+    Viernes, Turno Nocturno
+  - Empleado 4:
+    Jueves, Turno Diurno
+    Domingo, Turno Diurno
+  - Empleado 5:
+    Lunes, Turno Diurno
+    Sábado, Turno Nocturno
+  - Empleado 6:
+    Jueves, Turno Nocturno
+  - Empleado 7:
+    Martes, Turno Diurno
+  - Empleado 8:
+    Sábado, Turno Diurno
+  - Empleado 9:
+    Lunes, Turno Nocturno
+    Viernes, Turno Diurno
+    Domingo, Turno Nocturno
+  - Empleado 10:
+    Miércoles, Turno Nocturno
+
