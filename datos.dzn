@@ -34,5 +34,7 @@ maxReq = [3,3,3,3,3,3,3,3,3,3,3,3,3,3];
 maxTurnosEmp = 8;
 minTurnosEmp = 1;  % Número mínimo de turnos por empleado
 
-% Penalizaciones (solo se usa en min.mzn; igualamos a la preferencia como ejemplo)
-penExtra = prefer;
+% Penalizaciones calculadas como el complemento de las preferencias
+penExtra = array2d(1..numEmpleados, 1..numTurnos, [
+  5 - prefer[e, t] | e in 1..numEmpleados, t in 1..numTurnos
+]);
