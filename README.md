@@ -31,6 +31,10 @@ minReq = [1,1,1,1,1,1,1,1,1,1,1,1,1,1];
 maxReq = [3,3,3,3,3,3,3,3,3,3,3,3,3,3];
 maxTurnosEmp = 8;
 minTurnosEmp = 1;
+
+penExtra = array2d(1..numEmpleados, 1..numTurnos, [
+  5 - prefer[e, t] | e in 1..numEmpleados, t in 1..numTurnos
+]);
 ```
 
 ### 2. Modelos MiniZinc
