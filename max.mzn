@@ -10,7 +10,7 @@
 int: numEmpleados;  % Número de empleados
 int: numTurnos;     % Número total de turnos (días × turnos por día)
 array[1..numEmpleados, 1..numTurnos] of int: prefer;  % Preferencias de los empleados para cada turno
-array[1..numEmpleados,1..numTurnos] of int: penExtra;  % Penalizaciones (solo se usa en min.mzn; igualamos a la preferencia como ejemplo)
+array[1..numEmpleados,1..numTurnos] of int: penExtra;  % Penalizaciones para cada turno
 array[1..numTurnos] of int: minReq;  % Requerimientos mínimos por turno
 array[1..numTurnos] of int: maxReq;  % Requerimientos máximos por turno
 int: maxTurnosEmp;  % Máximo número de turnos por empleado
