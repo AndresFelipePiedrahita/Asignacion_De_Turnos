@@ -64,15 +64,16 @@ Turnos asignados por empleado:
 **Ejemplo de salida (Minimización):**
 ```
 Asignación x[e,t]:
-[| 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
- | 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0
+[| 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0
+ | 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1
  | ... ]
-Penalización total = 0
+Penalización total = 4
 Turnos asignados por empleado:
-    Empleado 1:
-        Martes, Turno Nocturno
-    Empleado 2:
-        Miércoles, Turno Diurno
+Empleado 1:
+  Miércoles, Turno Nocturno
+Empleado 2:
+  Jueves, Turno Diurno
+  Domingo, Turno Nocturno
 ```
 
 ### 3. Script Python (script.py)
